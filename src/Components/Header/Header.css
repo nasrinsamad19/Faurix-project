@@ -1,0 +1,63 @@
+.h-wrapper{
+    background: var(--secondary);
+    color: var(--black);
+}
+.appbar{
+    justify-content: space-between;
+    width: 100%;
+}
+.appbar-right{
+    background-color: none;
+    justify-content: space-between;
+}
+.likes{
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+.account{
+    padding-right: 0.5rem;
+}
+.search-bar{
+    background-color: white;
+    border-radius: 20rem;
+    justify-content: space-between ;
+}
+.search-bar>input{
+    border: none;
+    outline: none;
+}
+.search{
+    background-color: var(--blue);
+    border-radius: 30px;
+    padding: .2rem;
+    
+    justify-content: space-between ;  
+}
+.h-first{
+    color: var(--blue);
+}
+.h-second{
+    color: var(--blue);
+}
+
+.h-container{
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-radius: 15rem;
+    color: var(--black);
+    background-color: white;
+}
+.h-container{
+    
+}
+
+.h-menu{
+    color: var(--black);
+    gap: 2rem;
+}          
+
+.h-menu>*:hover{
+    cursor: pointer;
+}
+

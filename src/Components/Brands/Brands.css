@@ -1,0 +1,39 @@
+.b-container{
+flex-direction: column;
+}
+
+.title{
+    color: black;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.des{
+    color: var(--grey);
+    font-weight: 500;
+    font-size: 0.5rem;
+}
+.titles{
+    padding: none;
+
+}
+.brands{
+    align-items: center;
+    justify-content: center;
+}
+.brands>img{
+    width: 50%;
+    height: 50%;
+}
+.brand-series>h1{
+    font-size: 1.5rem;
+}
+.s{
+    padding-left: 2rem;
+}
+
+.s>img{
+
+    padding: .5rem;
+
+    
+}

@@ -1,0 +1,33 @@
+.hero-wrapper{
+background-color: var(--secondary);
+position: relative;
+padding-bottom: 2rem;
+}
+
+.hero-container{
+    justify-content: space-between;
+    align-items: flex-end;   
+}
+.title1{
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 10rem;
+    color: var(--black);
+    background-color: white;  
+}
+.title1>h1{
+    color: var(--blue);
+    font-weight: 200;
+    font-size: 0.6rem;
+
+}
+.des{
+    padding-top: 1.5rem;
+    padding-bottom: 1rem;
+    color: var(--balck);
+    font-weight: 700;
+    font-size: 3.5rem;
+
+}
