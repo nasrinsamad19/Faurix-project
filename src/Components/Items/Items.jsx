@@ -14,7 +14,8 @@ function Items() {
   return (
     <section className='items-wrapper'>
         <div className='paddings innerWidth flexCenter items-contaier'>
-        <div className='flexColCenter batteries'>
+          <div className='flexRowCenter items'>
+          <div className='flexColCenter batteries'>
             <span>
             <GiBattery50 />
 
@@ -75,12 +76,14 @@ function Items() {
                         </span>
                         
                     </div>
+          </div>
+          
+        
                
         </div>
         
-        
-        <hr/>
        
+        
 
     </section>
   )

@@ -5,12 +5,12 @@ function Brands() {
   return (
    <section className='b-wrapper'>
     <div className='paddings innerWidth flexCenter  b-container'>
-    <div className='flexColCenter titles'>
-    <span className='title'>
+    <div className='flexColCenter brand-titles'>
+    <h1>
         Agent Brands
 
-        </span>
-        <span className='des'>
+        </h1>
+        <span>
         Rich product resources, quality assurance, stable supply chain.
 
         </span>

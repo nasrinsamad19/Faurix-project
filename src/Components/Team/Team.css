@@ -1,0 +1,32 @@
+.t-wrapper{
+    background-color: var(--secondary);
+}
+.heading>h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-bottom: 0.5rem;
+}
+.heading>span{
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: var(--grey);
+}
+.t-list{
+    padding: 2rem;
+}
+.t-list>img{
+    border-radius: 50%;
+    max-width: 15rem;
+}
+.t-list>h1{
+    font-size: 1rem;
+    font-weight: 700;
+    padding-top: 0.7rem;
+    padding-bottom: 0.5rem; 
+    color: black;
+}
+.t-list>h2{
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: var(--grey);   
+}

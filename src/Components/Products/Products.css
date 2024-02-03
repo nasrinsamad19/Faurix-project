@@ -1,0 +1,25 @@
+.p-container{
+    justify-content: center;
+}
+.list{
+    border-radius: 10px;
+    gap: 0.6rem;
+    padding: 1rem;
+    max-width: max-content;
+    margin:auto;
+
+    border-color: var(--grey);
+}
+.products{
+    flex-direction: row ;
+    justify-content: space-evenly;
+
+}
+.list>h1{
+    font-size: 0.6rem;
+}
+.list>img{
+    width: 100%;
+    max-width: 20rem;
+}
+

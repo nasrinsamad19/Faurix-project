@@ -1,0 +1,15 @@
+.s-titles{
+    justify-content: space-between;
+    
+}
+.s-title{
+    font-weight: 700;
+    font-size:1.7rem;
+    padding-bottom: 0.5rem;
+
+}
+.s-des{
+    font-weight: 400rem;
+    font-size: 0.7rem;
+    color: var(--grey);
+}

@@ -34,6 +34,12 @@ a {
   align-items: center;
   flex-wrap: wrap;
 }
+.flexRowCenter{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row; 
+}
 
 .flexColCenter{
   display: flex;
@@ -70,6 +76,25 @@ a {
 .button:hover{
   cursor: pointer;
   transform: scale(1.1);
+}
+
+.greyText{
+  font-size: 0.5rem;
+    font-weight: 400;
+    color: var(--grey);
+    padding-top: 0.3rem;
+}
+.heading{
+  font-size: 1rem;
+  font-weight: 700;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.bottom-padding{
+  padding-bottom: 1rem;
+}
+.right-padding{
+  padding-right: 0.rem;
 }
 /* media queries*/
 @media(min-width: 1536px) {

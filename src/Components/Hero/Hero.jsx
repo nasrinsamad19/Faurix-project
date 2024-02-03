@@ -6,7 +6,8 @@ const Hero = () => {
     
      <section className='hero-wrapper'>
         <div className=' paddings innerWidth flexCenter  hero-container'>
-            < div className='flexColStart paddings  title'>
+            <div className='flexColCenter'>
+            < div className='  title'>
                 <div className=' title1'>
                 <h1>
             100% genuine Products
@@ -29,12 +30,14 @@ const Hero = () => {
             
 
         </div>
-       {/*<div className='flexCenter hero-right'>
+       <div className=' hero-right'>
             <div className='image-container'>
-                <img src='./Assets/Homepage/iphonedemo.jpeg'></img>
+                <img src='./Assets/Homepage/sample.png' width={150}height={200}></img>
   </div>
+            </div>
+            
 
-  </div>*/}
+  </div>
         </section> 
     
   )

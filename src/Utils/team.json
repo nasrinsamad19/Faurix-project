@@ -1,0 +1,23 @@
+[
+   {
+        "team-name":"Team Name",
+        "designation":"Designation",
+        "image":"./Assets/Homepage/person.jpeg"
+    },
+    {
+        "team-name":"Team Name",
+        "designation":"Designation",
+        "image":"./Assets/Homepage/person.jpeg"
+    }, 
+    {
+        "team-name":"Team Name",
+        "designation":"Designation",
+        "image":"./Assets/Homepage/person.jpeg"
+    },
+    {
+        "team-name":"Team Name",
+        "designation":"Designation",
+        "image":"./Assets/Homepage/person.jpeg"
+    }  
+   
+]

@@ -1,0 +1,75 @@
+
+.f-wrapper{
+background-color: black;
+color: white;
+}
+.division{
+    width: 100%;
+    display: flex;
+    row-gap: 2rem;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;   
+}
+.location{
+    background-color: var(--blue);
+    border-radius: 30px;
+    padding: .2rem;
+    
+    justify-content: space-between ;
+}
+.phone{
+    background-color: white;
+    border-radius: 30px;
+    padding: .2rem;
+    
+    justify-content: space-between ; 
+}
+.mail{
+    background-color: white;
+    border-radius: 30px;
+    padding: .2rem;
+    
+    justify-content: space-between ;  
+}
+.division-one>h1{
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding-bottom: 1rem;
+}
+.division-one>span{
+    justify-content: space-around;
+    width: 25%;
+
+}
+
+
+.division-one>text{
+    padding-left: 1rem;
+    padding-top: 1rem;
+
+    color: white;
+}
+.division-one{
+    padding-bottom: 2rem;
+}
+.f-heading>span{
+    width: 20%;
+}
+.sub{
+    background-color: white;
+    padding: 0.3rem;
+    justify-content: space-between;
+}
+
+.sub-bar{
+    background-color: white;
+    justify-content: space-between ;
+    padding: 0.4rem;
+}
+.sub-bar>input{
+    border: none;
+    outline: none;
+    padding: 0.3rem;
+}

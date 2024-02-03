@@ -1,6 +1,7 @@
 import React from 'react';
 import './Header.css';
 import { CiAirportSign1, CiHeart, CiSearch, CiShoppingCart, CiUmbrella, CiUser } from 'react-icons/ci';
+import { IoCarOutline } from 'react-icons/io5';
 
 
 
@@ -8,15 +9,16 @@ import { CiAirportSign1, CiHeart, CiSearch, CiShoppingCart, CiUmbrella, CiUser }
 const Header = () => {
     return (
         <section className=' h-wrapper'>
-            <div className='paddings flexCenter container'>
-            <div className='flexCenter appbar'>
-                <div className='left-appbar'>
-                    <div>
+            <div className='paddings innerWidth flexCenter  container'>
+                <div className='flexColCenter'>
+                <div className='flexRowCenter appbar'>
+                <div className=' left-appbar'>
+                    
                         <text className='h-second'>
                             Free shipping
                         </text>
                         <text classname='h-first'>&nbsp;orders for all item </text>
-                    </div>
+                    
                 </div>
                 <div className='flexCenter appbar-right'>
                     <div className='flexCenter search-bar'>
@@ -28,14 +30,14 @@ const Header = () => {
 
 
                     </div>
-                    <div className='flexColStart likes'>
+                    <div className='flexRowCenter likes'>
                         <CiHeart />
                     </div>
-                    <div className=' flexColStart account'>
+                    <div className=' flexRowCenter account'>
 
                         <CiUser />
                     </div>
-                    <div className='flexColStart cart'>
+                    <div className='flexRowCenter cart'>
 
                         <CiShoppingCart />
                     </div>
@@ -45,7 +47,7 @@ const Header = () => {
 
 
             </div>
-            <div className='flexCenter paddings innerWidth h-container'>
+            <div className='flexCenter h-container'>
                 <img src="./Assets/Homepage/facebook.png" alt="facebook" width={20} />
                 <div className='flexCenter h-menu'>
                     <a href="">Apple</a>
@@ -57,11 +59,16 @@ const Header = () => {
                 </div>
 
                 <button className='button'>
-                    <a href="">About us</a>
+                    <a href="">
+                        
+                    </a>
                 </button>
 
 
             </div>
+
+                </div>
+            
             </div>
            
         </section>

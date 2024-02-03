@@ -1,0 +1,22 @@
+.a-container{
+    position: relative;
+}
+
+.about-us>h1{
+    font-size: 1.5rem;
+    font-weight: 700;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+.about-us>span{
+    font-size: 0.7rem;
+    font-weight: 400;
+    color: var(--grey);
+    padding-top: 0.3rem;
+}
+.aims{
+    align-items: center;
+    justify-content: space-between;
+    justify-items: center;
+}

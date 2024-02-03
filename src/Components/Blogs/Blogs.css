@@ -1,0 +1,36 @@
+.b-section{
+    
+}
+.blogs{
+    box-shadow: var(--shadow);
+    width: 25%;
+
+      
+
+}
+.blogs:hover{
+
+}
+.blogs>h1{
+    width: 75%;
+color: black;
+padding: 0.5rem;
+    font-weight: 500;
+    font-size: 1.3rem;
+
+
+}
+.blogs>text{
+    padding: 0.5rem;
+    align-items: start;
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: var(--grey);
+}
+.blogs>a{
+    padding: 0.5rem;
+    align-items: start;
+    font-size: 0.9rem;
+    font-weight: 500;
+    color: var(--grey);
+}
